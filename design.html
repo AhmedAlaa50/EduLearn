@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Courses - EduLearn</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="logo-icon"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+            </svg>
+            <span>EduLearn</span>
+          </div>
+
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <button class="btn-primary" id="login-out">Login</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Course Header -->
+    <section class="course-header">
+      <div class="container">
+        <h1>Design Courses</h1>
+        <p>
+          Explore our wide range of design courses to enhance your creative
+          skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- Course Listing -->
+    <section class="course-listing">
+      <div class="container">
+        <div class="course-filters">
+          <div class="search-wrapper">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="search-icon"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+            <input type="text" placeholder="Search courses..." />
+          </div>
+
+          <div class="filter-buttons">
+            <button class="filter-btn active">All Levels</button>
+            <button class="filter-btn">Beginner</button>
+            <button class="filter-btn">Intermediate</button>
+            <button class="filter-btn">Advanced</button>
+          </div>
+        </div>
+        <div class="course-container">
+          <button class="scroll-btn prev-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m15 18-6-6 6-6" />
+            </svg>
+          </button>
+          <div class="course-grid">
+            <!-- Course 1: Web Design Essentials -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN-1200-80.jpg"
+                  alt="Web Design"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Web Design Essentials</h3>
+                <p>
+                  Learn the fundamentals of web design, including layout,
+                  typography, and color theory.
+                </p>
+                <div class="course-meta">
+                  <span>8 weeks</span>
+                  <span>•</span>
+                  <span>32 lessons</span>
+                  <span>•</span>
+                  <span>1,234 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$49.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 2: Graphic Design Fundamentals -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.JCpeBnURwXKbz8BUTrdYxwHaJ1&w=474&h=474&c=7"
+                  alt="Graphic Design"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Graphic Design Fundamentals</h3>
+                <p>
+                  Master the basics of graphic design, including visual
+                  communication and design principles.
+                </p>
+                <div class="course-meta">
+                  <span>10 weeks</span>
+                  <span>•</span>
+                  <span>40 lessons</span>
+                  <span>•</span>
+                  <span>2,156 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$59.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 3: UI/UX Design Basics -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.XLCvKlRhP65b_VgGjpLKcwHaEj&w=291&h=291&c=7"
+                  alt="UI/UX Design"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>UI/UX Design Basics</h3>
+                <p>
+                  Learn the essentials of UI/UX design, including wireframing,
+                  prototyping, and user testing.
+                </p>
+                <div class="course-meta">
+                  <span>8 weeks</span>
+                  <span>•</span>
+                  <span>32 lessons</span>
+                  <span>•</span>
+                  <span>1,500 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$69.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 4: Advanced Graphic Design Techniques -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.SAJFyNcxNHhcu3bDOY_EjQHaNK&pid=Api"
+                  alt="Advanced Graphic Design"
+                />
+                <span class="course-level">Advanced</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Advanced Graphic Design Techniques</h3>
+                <p>
+                  Dive into advanced techniques like 3D design, motion graphics,
+                  and visual storytelling.
+                </p>
+                <div class="course-meta">
+                  <span>12 weeks</span>
+                  <span>•</span>
+                  <span>48 lessons</span>
+                  <span>•</span>
+                  <span>850 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$79.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 5: Digital Illustration Fundamentals -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://tse3.mm.bing.net/th?id=OIP.aa7utpv26WIbfnHXNrs2ZwHaLO&w=474&h=474&c=7"
+                  alt="Digital Illustration"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Digital Illustration Fundamentals</h3>
+                <p>
+                  Learn the fundamentals of digital illustration using industry
+                  tools like Adobe Illustrator.
+                </p>
+                <div class="course-meta">
+                  <span>6 weeks</span>
+                  <span>•</span>
+                  <span>24 lessons</span>
+                  <span>•</span>
+                  <span>1,000 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$39.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 6: Typography for Designers -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqVmHaVPtOtUpV-2hlA2vC3VYCLhdZt1DDDw&s"
+                  alt="Typography"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Typography for Designers</h3>
+                <p>
+                  Explore the art of typography and learn how to create stunning
+                  designs with type.
+                </p>
+                <div class="course-meta">
+                  <span>8 weeks</span>
+                  <span>•</span>
+                  <span>32 lessons</span>
+                  <span>•</span>
+                  <span>1,800 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$59.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 7: Motion Design with After Effects -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="Motion Design"
+                />
+                <span class="course-level">Advanced</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Motion Design with After Effects</h3>
+                <p>
+                  Learn how to create dynamic motion graphics and animations
+                  using Adobe After Effects.
+                </p>
+                <div class="course-meta">
+                  <span>10 weeks</span>
+                  <span>•</span>
+                  <span>40 lessons</span>
+                  <span>•</span>
+                  <span>725 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$89.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Course 8: Logo Design Masterclass -->
+            <div class="course-card">
+              <div class="course-image">
+                <img
+                  src="https://images.unsplash.com/photo-1497106636505-e4fd6e16d74c?q=80&w=1409&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Logo Design"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <div class="course-content">
+                <div class="course-category">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 18 22 12 16 6" />
+                    <path d="M8 6 2 12 8 18" />
+                  </svg>
+                  <span>Design</span>
+                </div>
+                <h3>Logo Design Masterclass</h3>
+                <p>
+                  Discover the secrets of designing memorable logos that convey
+                  powerful brand identities.
+                </p>
+                <div class="course-meta">
+                  <span>8 weeks</span>
+                  <span>•</span>
+                  <span>32 lessons</span>
+                  <span>•</span>
+                  <span>1,200 students</span>
+                </div>
+                <div class="course-footer">
+                  <div class="course-price">$69.99</div>
+                  <a href="#" class="btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="scroll-btn next-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+              <span>EduLearn</span>
+            </div>
+            <p>Empowering minds through quality online education.</p>
+          </div>
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="programming.html">Programming</a></li>
+              <li><a href="design.html">Design</a></li>
+              <li><a href="technology.html">Technology</a></li>
+              <li><a href="arts.html">Arts</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter for updates</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" />
+              <button type="submit" class="btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2024 EduLearn. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/courses.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
